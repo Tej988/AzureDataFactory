@@ -1,0 +1,23 @@
+{
+	"name": "trigger3",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Started",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "Copy Pipeline",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "BlobEventsTrigger",
+		"typeProperties": {
+			"ignoreEmptyBlobs": true,
+			"scope": "/subscriptions/052c9332-2138-411f-adef-e7445d02ecc6/resourceGroups/Tej_RG/providers/Microsoft.Storage/storageAccounts/storage6attbmr7y2334",
+			"events": [
+				"Microsoft.Storage.BlobCreated"
+			]
+		}
+	}
+}
