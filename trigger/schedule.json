@@ -1,0 +1,25 @@
+{
+	"name": "schedule",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Started",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "wait activity",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "ScheduleTrigger",
+		"typeProperties": {
+			"recurrence": {
+				"frequency": "Hour",
+				"interval": 5,
+				"startTime": "2023-07-20T13:04:00",
+				"endTime": "2023-07-21T13:04:00",
+				"timeZone": "India Standard Time"
+			}
+		}
+	}
+}
