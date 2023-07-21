@@ -1,0 +1,9 @@
+{
+	"name": "tejtestadf",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "07f78630-e3ea-4ce0-8c29-69b1e084379b",
+		"tenantId": "e4e34038-ea1f-4882-b6e8-ccd776459ca0"
+	}
+}
